@@ -1,10 +1,9 @@
 ---
 name: Open FOAM
 category: Interactive Apps
-subcategory: Compute Nodes
+subcategory: CFD
 role: batch_connect
 description: |
   This app will submit an [Open FOAM] job.
 
   [Open FOAM]: https://openfoam.org/"
-icon: fas://gears
