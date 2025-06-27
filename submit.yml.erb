@@ -5,7 +5,7 @@ gpu_count=num_gpus.to_i
 scheduler_args = ["-p", queue]
 scheduler_args += ["-N", bc_num_slots.to_i]
 scheduler_args += ["--ntasks-per-node", nb_tasks_per_node.to_i]
-scheduler_args += ["--job-name drivaerFastback]
+scheduler_args += ["--job-name drivaerFastback"]
 
 if gpu_count > 0
   scheduler_args += ["--gpus=%d" % gpu_count]
