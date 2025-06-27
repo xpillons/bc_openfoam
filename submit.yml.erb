@@ -14,7 +14,6 @@ scheduler_args += ["--exclusive"]
 batch_connect:
   template: "basic"
 script:
-  job_name: "OpenFOAM Job"
   native:
   <%- scheduler_args.each do |arg| %>
     - "<%= arg %>"
